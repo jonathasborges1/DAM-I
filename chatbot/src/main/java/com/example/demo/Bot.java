@@ -1,8 +1,6 @@
 package com.example.demo;
 
-import com.google.common.base.CharMatcher;
-
-import static com.example.demo.HelloApplication.scanner;
+import static com.example.demo.MainChatBot.scanner;
 
 public class Bot {
     private String botName = "Marciano";
@@ -45,7 +43,6 @@ public class Bot {
 
           return;
       }
-
 
     public Boolean botQuestion() { // (1) - se alguém perguntar - o bot responde - "Certamente"
         String answerBot = "";

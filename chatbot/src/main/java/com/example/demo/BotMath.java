@@ -1,8 +1,6 @@
 package com.example.demo;
 
-import java.util.Arrays;
-
-import static com.example.demo.HelloApplication.scanner;
+import static com.example.demo.MainChatBot.scanner;
 
 public class BotMath {
     public enum MathOperation {
@@ -21,12 +19,11 @@ public class BotMath {
 
     private String action;
 
-
     public BotMath(String action) {
         this.action = action;
     }
 
-    public void start(){
+    public void start() {
         System.out.printf("Olá meu nome é Marciano Math e eu faço operações matemáticas, como por exemplo: somar, subtrair, dividir e multiplicar, vamos começarar?\n");
         System.out.printf("Digite acao: ");
 
@@ -80,7 +77,7 @@ public class BotMath {
 
     }
 
-    static int somar(String[] listNumber){
+    static int somar(String[] listNumber) {
         int result = 0;
         try{
             for ( String num: listNumber ){
@@ -95,7 +92,7 @@ public class BotMath {
         return result;
     }
 
-    static int subtrair(String[] listNumber){
+    static int subtrair(String[] listNumber) {
         int result = Integer.parseInt(listNumber[0]);
         try{
             for (int i = 1; i <= listNumber.length; i++){
@@ -113,7 +110,7 @@ public class BotMath {
         return result;
     }
 
-    static int multiplicar(String[] listNumber){
+    static int multiplicar(String[] listNumber) {
         int result = 1;
         try{
             for ( String num: listNumber ){
@@ -127,7 +124,7 @@ public class BotMath {
         return result;
     }
 
-    static float dividir(String[] listNumber){
+    static float dividir(String[] listNumber) {
         float result = Float.parseFloat(listNumber[0]);
 
         try{

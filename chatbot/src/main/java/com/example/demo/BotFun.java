@@ -1,6 +1,7 @@
 package com.example.demo;
 
-import static com.example.demo.HelloApplication.scanner;
+
+import static com.example.demo.MainChatBot.scanner;
 
 public class BotFun {
 
@@ -51,7 +52,7 @@ public class BotFun {
 
     }
 
-    static void coffee(){
+    static void coffee() {
         System.out.printf(" Eu tomo café. A Cláudia, leite. Eu tomo gelado. O Clark, Kent.\n");
     }
 
@@ -59,15 +60,15 @@ public class BotFun {
         System.out.printf(" Por que a formiga tem quatro patas? Porque se ela tivesse cinco se chamaria fivemiga. \n");
     }
 
-    static void vampiro(){
+    static void vampiro() {
         System.out.printf(" Sabe qual é o cereal favorito do vampiro? Aveia. \n");
     }
 
-    static void planta(){
+    static void planta() {
         System.out.printf(" Por que as plantinhas não podem passar mal de madrugada?  R: Porque só tem médico de plantão. \n");
     }
 
-    static void fruta(){
+    static void fruta() {
         System.out.printf(" Qual a fruta que anda de trem?  R: O kiwiiiii. \n");
     }
 
